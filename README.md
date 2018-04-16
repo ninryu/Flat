@@ -43,7 +43,7 @@ Features
 <ol>
 <li>You can set 6 (or more) themes with different background and illustrations. To switch between theme, you have to click one of the six colors bar at the bottom.</li>
 <li>A random quote generator : each time you refresh the page, a random quote will be displayed.
-<li>To activate the search bar, press the `ctrl` key. What's more, by entering some special keys, such as <i>-y jazz music</i>, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia.</li>
+<li>To activate the search bar, press the CTRL key. What's more, by entering some special keys, such as <i>-y jazz music</i>, you'll be able to search directly on youtube and not on Google. Another exemple with `-w moe`, it'll search 'moe' on wikipedia.</li>
 </ol>
 
 Customizing
