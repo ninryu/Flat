@@ -1,0 +1,40 @@
+	body {
+		background-color: #C0392B  !important;
+	}
+
+	#message p i {
+       		text-shadow: 4px 3px 0px #9E2F22, 9px 8px 0px rgba(255, 255, 255, .15) !important;
+	}
+
+	#container #list a:nth-child(1) li {
+		background: no-repeat url(background/red_background_01.png) center;
+	}
+
+	#container #list a:nth-child(2) li {
+		background: no-repeat url(background/red_background_02.png) center;
+	}
+
+	#container #list a:nth-child(3) li {
+		background: no-repeat url(background/red_background_03.png) center;
+	}
+
+	#container #list a:nth-child(4) li {
+		background: no-repeat url(background/red_background_04.png) center;
+	}
+
+	#container #list a:nth-child(5) li {
+		background: no-repeat url(background/red_background_05.png) center;
+	}
+
+	#container #list a:nth-child(6) li {
+		background: no-repeat url(background/red_background_06.png) center;
+	}
+
+	#container #list li .text {
+		background: rgba(158,47,34,.7);
+    		text-shadow: 4px 3px 0px #C0392B, 9px 8px 0px rgba(255, 255, 255, .15) !important;
+    	}
+
+       	#searchbox {
+		background: rgba(158,47,34,.7);
+    	}

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>Flat is Justice</title>
+		<link rel="shortcut icon" type="image/png" href="icons/flat_favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	        	<link id="pagestyle" rel="stylesheet" type="text/css" title="blue" href="theme_blue.css">
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript">
+			function swapStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+			}
+			if (localStorage.getItem('css')) {
+				swapStyleSheet(localStorage.getItem('css'));
+			}
+			function swapStyleSheet(sheet){
+				document.getElementById('pagestyle').setAttribute('href', sheet);
+				localStorage.setItem('css', sheet);
+			}
+		</script>
+	</head>
+	<body>
+	      <div id="message">
+		      <p>Bonjour,</p> 
+		      <p >bienvenue sur <i>internet.</i></p>
+		      <div id="quote">
+		      </div>
+	      </div>
+	      <div id="container">
+	      	<div id="list">
+		      	<a href="https://github.com/">
+		      		<li><div class="text"><p>github</p></div></li>
+		      	</a>
+		      	<a href="http://www.pixiv.net/">
+		      		<li><div class="text"><p>pikushibu</p></div></li>
+		      	</a>
+		      	<a href="https://mangadex.org/follows">
+		      		<li><div class="text"><p>mangadex</p></div> </li>
+		      	</a>
+		      	<a href="http://www.4chan.org/">
+		      		<li><div class="text"><p>yotsu.ba</p></div></li>
+		      	</a>
+		      	<a href="https://nicknameisfortheweak.deviantart.com/">
+		      		<li><div class="text"><p>dA</p></div></li>
+		      	</a>  	
+		      	<a href="https://soundcloud.com/stream">
+		      		<li><div class="text"><p>soundcloud</p></div></li>
+		      	</a>  			      
+		</div>
+		<div id="buttons">
+			<button onclick="swapStyleSheet('theme_blue.css')" style="background: #2980B9"></button>
+			<button onclick="swapStyleSheet('theme_green.css')" style="background: #27AE60"></button>
+			<button onclick="swapStyleSheet('theme_orange.css')" style="background: #F39C12"></button>
+			<button onclick="swapStyleSheet('theme_red.css')" style="background: #EB3B5A"></button>
+			<button onclick="swapStyleSheet('theme_purple.css')" style="background: #8E44AD"></button>
+			<button onclick="swapStyleSheet('theme_grey.css')" style="background: #57606F"></button>
+		</div>
+	      </div>
+                   <div class="form">
+           		<input  id="searchbox" name="q" type="text" autocomplete="off" class="cleardefault" maxlength="100"   placeholder="search engine ..." size="17" autofocus="autofocus" />
+                   </div>
+	</body>
+	<script type="text/javascript" src="js/search.js"></script>
+	<script type="text/javascript" src="js/quote.js"></script>
+</html>

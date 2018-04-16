@@ -1,0 +1,135 @@
+* {
+	font-family: "Roboto" !important;
+}
+
+*::-moz-focus-inner {
+	border: 0;
+}
+
+body {
+	height: 100% !important;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+#message {
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	padding-left: 55px;
+}
+
+#message p,
+#message > i {
+	color: #FFF;
+	font-family: "Roboto" !important;
+	font-size: 38pt;
+	font-stretch: condensed;
+	font-weight: bold;
+	letter-spacing: -.1px;
+	line-height: 10pt;
+}
+
+#message p i {
+	color: #EBEBEB !important;
+}
+
+#message #quote {
+	padding-right: 90px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+}
+
+#message #quote {
+	color: #EBEBEB;
+	font-family: "Droid Serif" !important;
+	font-size: 22pt;
+	font-style: italic;
+	letter-spacing: -1px;
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+}
+
+#container #list {
+	width: 90vw;
+	text-align: center;
+	position: relative !important;
+	top: 5vh !important;
+	margin: auto;
+}
+
+#container #list li {
+	background-color: #1C7293;
+	background-size: cover !important;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+	color: #FFF;
+	height: 20vh;
+	width: 25vw;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+#container #list a {
+	color: transparent;
+}
+
+#container #list li .text {
+	line-height: 19vh !important;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	transition: all .3s ease-in-out !important;
+	margin-top: -40px;
+}
+
+#container #list li .text p {
+	font-family: "Bebas Neue" !important;
+	font-size: 30pt;
+	font-weight: bold;
+	transform: translate3d(0, 25%, 0);
+	transition: transform 0.35s;
+}
+
+#container #list li .text:hover {
+	opacity: 1;
+	transition: all .3s ease-in-out !important;
+}
+
+#container #list li .text:hover p {
+	transform: translate3d(0, 0, 0);
+	transition-delay: 0.05s;
+}
+
+#buttons {
+	margin-top: 10vh;
+	text-align: center;
+}
+
+#buttons button {
+	border: none;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .2);
+	height: 4px;
+	width: 100px;
+	margin-right: -4px;
+}
+
+#searchbox {
+	border: none;
+	color: #FFF;
+	font-family: "Roboto";
+	font-size: 20pt;
+	font-stretch: condensed;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	position: fixed !important;
+	bottom: -100px;
+	transition: all .3s ease-in-out;
+}
