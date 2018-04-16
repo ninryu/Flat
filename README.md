@@ -57,8 +57,8 @@ Customizing
 Open the `js` folder and edit `quote.js` in a text editor, you'll have to change the sentences in `var quotes`. For instance, for the first quote, 
 
 ``` javascript
-        quote: "I hate mondays.",
-        name:"Garfield"
+quote: "I hate mondays.",
+name:"Garfield"
 ```
 
 ### Search
