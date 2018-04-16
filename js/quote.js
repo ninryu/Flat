@@ -56,7 +56,7 @@ var quotes = [
                 name:"Harold Rome"
         },
         {
-                quote:"Il importe peu de descendre du singe ; l'essentiel est de ne pas y remonter.",
+                quote:"Il importe peu de descendre du singe; l'essentiel est de ne pas y remonter.",
                 name:"Richard Wagner"
         },
         {
@@ -168,7 +168,7 @@ var quotes = [
                 name:"Jules Renard"
         },
         {
-                quote:"Toutes choses sont dites déjà ; mais comme personne n'écoute, il faut toujours recommencer.",
+                quote:"Toutes choses sont dites déjà; mais comme personne n'écoute, il faut toujours recommencer.",
                 name:"André Gide"
         },
         {
@@ -188,4 +188,4 @@ var number = quotes.length;
 var randomNumber = Math.floor(Math.random() * number);
 var text = quotes[randomNumber].quote;
 var text2 = quotes[randomNumber].name;
-$("#quote").html(text + " (" + text2 + ")");
+$("#quote").html(" \"" + text + "\" " + " (" + text2 + ")");
