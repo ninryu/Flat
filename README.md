@@ -54,13 +54,11 @@ Customizing
 - you'll notice that in each theme the colors used are different. To personalize those colors, open one of the `theme.css` file in a text editor and edit the value of `background` and `text-shadow`. 
 
 ### Quotes
-open the `js` folder and edit `quote.js` in a text editor, you'll have to change the sentences in `var quotes`. For instance, for the first quote, 
+Open the `js` folder and edit `quote.js` in a text editor, you'll have to change the sentences in `var quotes`. For instance, for the first quote, 
 
 ``` javascript
-{
         quote: "I hate mondays.",
         name:"Garfield"
-},
 ```
 
 ### Search
