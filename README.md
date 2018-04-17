@@ -1,5 +1,5 @@
 # Flat
-<img src="preview_flat.png" width="100%">
+<img src="preview_flat_2.png" width="100%">
 
 [Live Demo](https://catgrills.github.io/Flat/) of <i>Flat</i>.
 
