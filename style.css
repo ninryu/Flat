@@ -45,8 +45,7 @@ body {
 	color: #EBEBEB;
 	font-family: "Droid Serif" !important;
 	font-size: 1.6vw;
-	font-style: italic;
-	letter-spacing: -.5px;
+	letter-spacing: -1px;
 }
 
 #container {
